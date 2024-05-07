@@ -1,5 +1,9 @@
 ![PlotForge Logo](https://github.com/Harshit2012/PlotForge/assets/105143145/16114d76-606c-440b-a25b-eb3a80d1f065)
 Turns Data into Graph using chart.js.
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Harshit2012/PlotForge?tab=MIT-1-ov-file#readme)
+![GitHub Release](https://img.shields.io/github/v/release/harshit2012/plotforge)
+![Forks](https://img.shields.io/github/forks/harshit2012/plotforge)
+![Stars](https://img.shields.io/github/stars/harshit2012/plotforge)
 
 ## Features✨
 - Easy to use
