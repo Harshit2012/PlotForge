@@ -1,11 +1,12 @@
 # PlotForge
 Turns Data into Graph.
-> [!TIP]
-> When you will create graph and clear it and try to create a new it will not create. To create new after creating one graph refresh the website.
 
 ## Features
-- Easy to use.
-- Clear the data and download the data.
+- Easy to use
+- Clear the data and download the data
+- One click to download
+- One click to create
+- One click to clear
 
 ## Technologies Used
 - HTML
