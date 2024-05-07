@@ -19,6 +19,9 @@ Turns Data into Graph.
 - Click on the graph which you like
 - To download click on download button
 
+## To run
+Open the folder and open `intro.html`
+
 ## Preview
 ![PlotGraph-Graph](https://github.com/Harshit2012/PlotForge/assets/105143145/84bb3e11-ada4-4412-905a-c04a82b3ffd8)
 
