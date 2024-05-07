@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlotForge</title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-treemap"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="f-text" onclick="home()">PlotForge</h1>
+        <h2>Create Your Graph</h2>
+        <form id="graph-form">
+            <select id="numInputs" onchange="updateInputs()">
+                <option value="">Select number of inputs</option>
+            </select>
+            <div id="inputsContainer"></div>
+            <button type="button" id="createBarGraph">Create Bar Graph</button>
+            <button type="button" id="createLineGraph">Create Line Graph</button>
+            <button type="button" id="createPieGraph">Create Pie Graph</button>
+            <button type="button" id="createAreaGraph">Create Area Graph</button>
+            <button type="button" id="createTreeMap">Create Tree Map</button>
+            <button type="button" id="createRadarChart">Create Radar Chart</button>
+            <button type="button" id="clearGraph">Clear Graph</button>
+            <button type="button" id="downloadGraph">Download Graph</button>
+        </form>
+        <div id="graph-container">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <script src="main.js" defer></script>
+</body>
+</html>

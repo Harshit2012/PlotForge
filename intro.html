@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intro.css">
+    <link rel="icon" href="logo.jpg">
+    <title>PlotForge: Turns Data into Graph</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1 class="f-text">PlotForge</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#branding">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a style="cursor: pointer;" onclick="cg()">Create Graph</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="intro">
+        <div id="info">
+            <img id="logo" src="logo.jpg">
+            <h1>PlotForge</h1>
+            <h2>Turns Data to Graph</h2>
+            <button id="gets" onclick="gets()">Get Started</button>
+        </div>
+        <br>
+        <div id="img-sec">
+            <h1>It create with no time</h1>
+            <video id="prev_vid" width="600" height="300" autoplay>
+                <source src="Forge.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <br>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active"><img src="img/PlotGraph-Graph (1).png" alt="Image 1"></div>
+            <div class="slide"><img src="img/PlotGraph-Graph (2).png" alt="Image 2"></div>
+            <div class="slide"><img src="img/PlotGraph-Graph (3).png" alt="Image 3"></div>
+            <div class="slide"><img src="img/PlotGraph-Graph (4).png" alt="Image 4"></div>
+            <div class="slide"><img src="img/PlotGraph-Graph (5).png" alt="Image 5"></div>
+            <div class="slide"><img src="img/PlotGraph-Graph (6).png" alt="Image 6"></div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <br>
+    <div id="about">
+        <img id="logo" src="logo.jpg">
+        <h1 class="f-text">About</h1>
+        <p>PlotForge turns data enter by user into graph. Area graph, Pie graph, Line graph and Bar graph are currently
+            available here. Create this website using Chart.js.</p>
+    </div>
+    <div id="features">
+        <h1 class="f-text">Features:-</h1>
+        <hr>
+        <div class="f_of_w">
+            <h1 class="f-text">One click to create</h1>
+            <p>By clicking to one button you can create the graph, just you have to enter the data.</p>
+            <button class="ex_button">One click to create</button>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="f_of_w">
+            <h1 class="f-text">One click to clear</h1>
+            <p>By clicking one button you can clear the data from the website.</p>
+            <button class="ex_button2">One click to clear</button>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="f_of_w">
+            <h1 class="f-text">One click to download</h1>
+            <p>By clicking one button you can download the graph from the website.</p>
+            <button class="ex_button3">One click to download</button>
+        </div>
+        <br>
+    </div>
+    <script src="intro.js"></script>
+</body>
+</html>
