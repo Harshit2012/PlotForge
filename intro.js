@@ -1,5 +1,5 @@
 function gets() {
-    window.location = "index.html";
+    window.location = "create.html";
 }
 
 let index = 0;
