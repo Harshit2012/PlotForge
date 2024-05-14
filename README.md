@@ -29,7 +29,7 @@ Turns Data into Graph using chart.js.
 To clone your forked repository, use the following command in your terminal:
 
 ```bash
-git clone https://github.com/Harshit2012/PlotForgegit
+git clone https://github.com/Harshit2012/PlotForge.git
 cd PlotForge
 ```
 
