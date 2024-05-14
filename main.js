@@ -132,5 +132,5 @@ document.getElementById('downloadGraph').addEventListener('click', function () {
 });
 
 function home() {
-    window.location = "intro.html";
+    window.location = "index.html";
 }
